@@ -193,6 +193,16 @@ img {
 .feature__item {
 	flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.feature__item_icons {
+	width: 264px;
+	height: 112px;
+
+	margin-bottom: 8px;
+
+	border: 1px solid var(--slate);
+	background-color: var(--cloud);
+	border-radius: 4px;
+}
 
 .feature__subtitle {
 	margin-bottom: 8px;
