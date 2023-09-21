@@ -193,6 +193,7 @@ img {
 .feature__item {
 	flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 .feature__item_icons {
 	width: 264px;
 	height: 112px;
@@ -269,6 +270,22 @@ img {
 	letter-spacing: 0.02em;
 }
 
+.team__icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 8px;
+	gap: 24px;
+}
+
+.team__item_icon {
+	width: 40px;
+	height: 40px;
+
+	border-radius: 50%;
+	background-color: var(--iris);
+}
+
 .portfolio__title {
 	color: var(--bluemodal);
 	line-height: 150%;
@@ -324,6 +341,10 @@ img {
 	padding: 100px 0;
 }
 
+.footer__items {
+	display: flex;
+}
+
 .footer .logo {
 	margin-bottom: 16px;
 }
@@ -339,8 +360,39 @@ img {
 	color: var(--cloud);
 }
 
+.footer__item_subtitle {
+	margin-bottom: 16px;
+	text-align: inherit;
+
+	color: var(--white);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	letter-spacing: 0.32px;
+}
+
+.footer__item_social {
+	margin-left: 120px;
+}
+
 .footer__logo {
 	color: var(--cloud);
+}
+
+.footer__icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 18px;
+}
+
+.footer__item_icon {
+	width: 40px;
+	height: 40px;
+
+	border-radius: 50%;
+	background-color: var(--iris);
 }
 
 :root {
