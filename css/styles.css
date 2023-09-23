@@ -308,7 +308,7 @@ img {
 	width: calc((100% - 48px) / 3);
 }
 
-.portfolio__item_img {
+.portfolio__item_overlay {
 	position: relative;
 	overflow: hidden;
 }
