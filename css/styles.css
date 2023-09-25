@@ -92,7 +92,7 @@ img {
 	color: var(--navy);
 }
 
-.header__item:hover::after {
+.header__item::after {
 	position: absolute;
 	left: 0;
 	bottom: -1px;
