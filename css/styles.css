@@ -103,10 +103,6 @@ img {
 	content: '';
 }
 
-.header__logo {
-	color: var(--navy);
-}
-
 .header__link {
 	line-height: 150%;
 	color: var(--navy);
@@ -145,7 +141,7 @@ img {
 	color: var(--ocean);
 }
 
-.order .container {
+.order__items {
 	padding: 188px 0;
 	max-width: 1440px;
 	background-image: linear-gradient(
