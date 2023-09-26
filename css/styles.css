@@ -14,7 +14,7 @@ li {
 }
 a {
 	text-decoration: none;
-
+	color: var(--navy);
 	display: inline-block;
 }
 
@@ -86,7 +86,6 @@ img {
 }
 
 .header__item {
-	position: relative;
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.02em;
@@ -94,28 +93,34 @@ img {
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.current::after {
+.current__item::after {
 	position: absolute;
 	left: 0;
 	bottom: -1px;
-	width: 100%;
 	height: 4px;
 	border-radius: 2px;
 	background-color: var(--ocean);
-	color: var(--ocean);
 	content: '';
+}
+
+.current__item:hover::after {
+	width: 100%;
 }
 
 .header__link {
 	line-height: 150%;
-	color: var(--navy);
+	position: relative;
 	padding: 24px 0;
 }
 
-.header__link:hover,
-.header__link:focus {
+.header__link::after {
 	color: var(--ocean);
 }
+
+/* .header__link:hover,
+.header__link:focus {
+	
+} */
 
 .header__contacts {
 	margin-left: 292px;
