@@ -89,8 +89,6 @@ img {
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.02em;
-
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current__item::after {
@@ -113,14 +111,15 @@ img {
 	padding: 24px 0;
 }
 
-.header__link::after {
+.active__link::after {
 	color: var(--ocean);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .header__link:hover,
+.header__link:hover,
 .header__link:focus {
-	
-} */
+	color: var(--ocean);
+}
 
 .header__contacts {
 	margin-left: 292px;
@@ -149,9 +148,10 @@ img {
 	color: var(--ocean);
 }
 
-.order__items {
+.order__image {
 	padding: 188px 0;
 	max-width: 1440px;
+	margin: 0 auto;
 	background-image: linear-gradient(
 			rgba(46, 47, 66, 0.7),
 			rgba(46, 47, 66, 0.7)
